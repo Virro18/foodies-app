@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# CUSTOM
+# Mengabaikan semua file database SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# File jurnal/cadangan SQLite (biasanya otomatis muncul saat database sedang diakses/menulis data)
+*.db-journal
+*.sqlite-journal
+*.sqlite3-journal
+*.db-wal
+*.sqlite-wal
+*.sqlite3-wal
+*.db-shm
+*.sqlite-shm
+*.sqlite3-shm
